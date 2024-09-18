@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing:content-box;
+    background-color: rgb(0, 0, 0, 0.966);
+    color: aliceblue;
+}
+
+.header {
+    padding: 3% 0 0 15%;
+}
+
+.header_menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.site {
+    color: blueviolet;
+}
+
+.presentation {
+    padding: 5% 15% 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentation__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+}
+
+.titulo{
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.texto1{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.urls {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.url1{
+    border: 2px solid blueviolet;
+    width: 230px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+.url1:hover{
+    background-color: lightpink;
+    color: black;
+}
+
+
+.url3 {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rodape {
+    background-color: blueviolet;
+    color: black;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+
+    .presentation{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .presentation__content {
+        width: auto;
+    
+    }
+
+    .images {
+        padding: 5%;
+    }
+
+}
